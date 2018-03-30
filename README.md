@@ -1,6 +1,6 @@
 # Ant Design Kickstart
 #### An opinionated starter-kit for Ant Design
-A Fusecube.io Open Source project.
+A Cubefuse.io Open Source project.
 
 
 Includes:
