@@ -1,9 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Button } from 'antd';
-import moment from "moment";
-
-moment.locale();
 
 const title = "React Webpack Minimal";
 
