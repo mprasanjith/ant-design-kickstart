@@ -1,0 +1,40 @@
+{
+  "name": "ant-design-kickstart",
+  "version": "1.0.0",
+  "description": "An opinionated starter-kit for Ant Design",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.dev.js --mode development",
+    "build": "webpack --config ./webpack.prod.js --mode production",
+    "precommit": "pretty-quick --staged"
+  },
+  "author": "Madusha Prasanjith",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-import": "^1.6.7",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "husky": "^0.14.3",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "less-vars-to-js": "^1.2.1",
+    "prettier": "1.11.1",
+    "pretty-quick": "^1.4.1",
+    "react-hot-loader": "^4.0.0",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.3.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "antd": "^3.3.3",
+    "moment": "^2.21.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
